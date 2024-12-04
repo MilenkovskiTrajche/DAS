@@ -1,0 +1,14 @@
+.footer{
+    display: flex;
+    height: 5em;
+    gap: 2em;
+    width: 100%;
+    background: #1e3275;
+    place-items: center;
+    justify-content: flex-start;
+    color: whitesmoke;
+}
+.footer img{
+    margin-left: 2em;
+    height: 5em;
+}
