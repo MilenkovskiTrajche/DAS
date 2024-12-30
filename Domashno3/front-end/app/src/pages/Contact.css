@@ -1,0 +1,39 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    place-items: center;
+    background: #3b54a9;
+    color: whitesmoke;
+    padding: 2em 4em;
+    min-height: calc(100vh - 10em);
+    box-sizing: border-box;
+}
+.contact h1{
+    margin-bottom: 1em;
+}
+
+#email-input{
+    width: 21em;
+    height: 2em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+}
+#text-field{
+    margin-bottom: 1em;
+    width: 21em;
+    height: 15em;
+    border-radius: 5px;
+}
+#send-email{
+    margin: 0;
+    padding: 8px 12px;
+    border: 0;
+    background: whitesmoke;
+    cursor: pointer;
+    color: black;
+    border-radius: 5px;
+}
+#send-email:hover{
+    background: #9f9d9d;
+}

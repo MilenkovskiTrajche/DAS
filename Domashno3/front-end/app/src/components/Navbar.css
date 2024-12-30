@@ -1,0 +1,49 @@
+.navbar{
+    display: flex;
+    gap: 30em;
+    height: 5em;
+    width: 100%;
+    background: #1e3275;
+    place-items: center;
+    justify-content: center;
+}
+.nav-links nav ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    list-style-image: none;
+}
+
+.nav-links nav ul{
+    display: flex;
+    gap: 4em;
+}
+.nav-links{
+    display: flex;
+    gap: 5em;
+    color: whitesmoke;
+    font-size: 24px;
+    cursor: pointer;
+    justify-content: center;
+    place-items: center;
+}
+.nav-links a:hover{
+    text-decoration: underline whitesmoke;
+}
+.language-buttons{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    place-items: center;
+}
+#macedonian img,#english img{
+    height: 2em;
+    padding: 0;
+    border: none;
+}
+#macedonian,#english{
+    padding: 0;
+    border: 0;
+}
+#macedonian:hover,#english:hover{
+    cursor: pointer;
+}
