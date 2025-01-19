@@ -1,0 +1,25 @@
+.about{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #3b54a9;
+    color: whitesmoke;
+    padding: 2em 4em;
+    min-height: calc(100vh - 10em);
+    box-sizing: border-box;
+}
+.member-icons{
+    display: flex;
+    gap: 2em;
+}
+.icon{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    place-items: center;
+    justify-content: center;
+    background: whitesmoke;
+    color: black;
+    border-radius: 10px;
+}

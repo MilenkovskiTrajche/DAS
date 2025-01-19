@@ -1,0 +1,33 @@
+.scraper{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.2em;
+    place-items: center;
+}
+.scraper-time{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0.1em;
+    place-items: center;
+}
+#btn-start-scraper,#btn-main-page{
+    background: transparent;
+    color: #4caf50;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: 2px solid #4caf50;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: color 0.3s, background 0.3s, box-shadow 0.3s;
+}
+#btn-start-scraper:hover,#btn-main-page:hover{
+    background: #4caf50;
+    color: white;
+    box-shadow: 0 4px 10px rgba(76, 175, 80, 0.3);
+}
+#btn-start-scraper:disabled,#btn-main-page:disabled{
+    color: #cccccc;
+    border-color: #cccccc;
+    cursor: not-allowed;
+}
